@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.example",
+    "module": "KISS-Java",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "vkwtzhklfzcdxe2g3nafgch5ma"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "KISS-Java-unspecified.jar",
+          "url": "KISS-Java-unspecified.jar",
+          "size": 1221,
+          "sha512": "021f75a8c45c0e9d829e66832fb50ec16631efb01f4613aecc7877a925312abd740857c7d3c9f036ee1c017ab3962aa5ead413b089d9681feb046a60dfe6d378",
+          "sha256": "36cfe847c87a571e520686a08fa491d45d38e5ee69f29bb3d4f15e915ab6a8b0",
+          "sha1": "149d43760d2a7b43b8378260c270d8c855c071e2",
+          "md5": "360a2bf4a1dd863a175c3ab67bb47fb6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "KISS-Java-unspecified.jar",
+          "url": "KISS-Java-unspecified.jar",
+          "size": 1221,
+          "sha512": "021f75a8c45c0e9d829e66832fb50ec16631efb01f4613aecc7877a925312abd740857c7d3c9f036ee1c017ab3962aa5ead413b089d9681feb046a60dfe6d378",
+          "sha256": "36cfe847c87a571e520686a08fa491d45d38e5ee69f29bb3d4f15e915ab6a8b0",
+          "sha1": "149d43760d2a7b43b8378260c270d8c855c071e2",
+          "md5": "360a2bf4a1dd863a175c3ab67bb47fb6"
+        }
+      ]
+    }
+  ]
+}
