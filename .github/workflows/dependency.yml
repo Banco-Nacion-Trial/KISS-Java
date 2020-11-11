@@ -1,3 +1,14 @@
-- name: Dependency Action
-  uses: teddyking/dependency-action@v2.0.0
-
+name: Dependency
+on: [push]
+jobs:
+  test:
+    name: unit-test
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout master
+      uses: actions/checkout@master
+    - name: Download test dependencies
+      uses: teddyking/dependency-action@master
+      with:
+        deps: https://dep1.tar.gz,https://dep2.txz
+    - name: Run tests
