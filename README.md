@@ -1,2 +1,2 @@
 # KISS-Java
-prueba simple de gradle y publicaciones.
+prueba simple de gradle y publicaciones..
